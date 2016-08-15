@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.2.1-sjlj mingw32 -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F415RG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\f411_I2CEEPROM\cmsis_lib -I..\..\..\workspace\f411_I2CEEPROM\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\f411_I2CEEPROM\cmsis -I..\..\.. -I..\..\..\workspace\f411_I2CEEPROM -I..\..\..\workspace\f411_I2CEEPROM\cmsis_lib\include">
+      <target file="stm32f4xx_gpio.o" lastModified="1563b60232f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15622905aba"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1563b602426">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="156228f9702"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1563b601cfe">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="156228f96cc"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="1563b602589">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="15622910330"/>
+      </target>
+      <target file="tm_stm32f4_gpio.o" lastModified="1563b60289b">
+         <source file="..\..\..\tm_stm32f4_gpio.c" lastModified="156302f2099"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="1563b601c1b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15622917288"/>
+      </target>
+      <target file="tm_stm32f4_i2c.o" lastModified="15689055b56">
+         <source file="..\..\..\tm_stm32f4_i2c.c" lastModified="1568904b06f"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="1563b602680">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="1562290a8f3"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="1563b601a8a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="1562297cc1c"/>
+      </target>
+      <target file="main.o" lastModified="156892ba858">
+         <source file="..\..\..\main.c" lastModified="156892b8d85"/>
+      </target>
+      <target file="eepromOps.o" lastModified="15688eec0e1">
+         <source file="..\..\..\eepromOps.c" lastModified="15688eaf29e"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="1563b6020c2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="156228f969d"/>
+      </target>
+      <target file="misc.o" lastModified="1563b60277e">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15622920c56"/>
+      </target>
+   </processor>
+</history>
